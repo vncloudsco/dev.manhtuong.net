@@ -214,3 +214,6 @@ if(current_user_can( 'manage_options')){
  * UX Builder
  */
 require get_template_directory() . '/inc/builder/builder.php';
+
+// google sheet sync
+require get_template_directory() . '/inc/google/sheet.php';
